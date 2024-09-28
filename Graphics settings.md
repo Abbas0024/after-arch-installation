@@ -39,7 +39,7 @@ Section "OutputClass"
      MatchDriver "amdgpu"
      Driver "amdgpu"
      Option "EnablePageFlip" "off"
-     Option "TearFree" "false"
+     Option "TearFree" "true"
 EndSection
 ~~~
 
