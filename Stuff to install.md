@@ -1,7 +1,7 @@
 ## from pacman
 ~~~
 sudo pacman -S kate steam gimp kdenlive qbittorrent virtualbox obs-studio pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family
-discord obsidian neofetch eza spectacle neovim
+discord obsidian neofetch eza spectacle neovim ripgrep xclip
 ~~~
 
 ## yay installation
@@ -27,7 +27,6 @@ yay -S brave-bin
 - Wallpapers
 - Dank net
 - Clean coding and refactoring
-- my neovim configuration
 
 ## Editing pacman
 edit `/etc/pacman.conf`
@@ -147,5 +146,16 @@ systemctl --user status wireplumber  //should be active and running
 ~~~
 
 
+## Neovim setup
+~~~
+git clone https://github.com/Abbas0024/my-neovim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+~~~
+
+and then initialise neovim for the first time
+~~~
+nvim
+~~~
+
+and then it will lazy-load and install all the plugins
 
 
