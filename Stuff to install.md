@@ -36,7 +36,24 @@ edit `/etc/pacman.conf`
 - enable `#ParallelDownloads` and set it to 5
 
 ## zsh & ohmyzsh
-to be done after install because i forgot the process \
+~~~
+sudo pacman -S zsh
+~~~
+then run zsh and choose option 1, which makes an empty `.zshrc` file
+
+the do these to change shell to zsh
+~~~
+chsh -s $(which zsh)
+
+cat /etc/passwd | grep $USER  // should show /usr/bin/zsh as abbas' shell
+
+sudo reboot
+~~~
+
+to add oh-my-zsh
+~~~
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+~~~
 
 ## Editing zsh
 edit `.zshrc`
