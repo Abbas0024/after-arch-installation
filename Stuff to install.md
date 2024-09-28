@@ -52,7 +52,7 @@ sudo reboot
 
 to add oh-my-zsh
 ~~~
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" //see website first
 ~~~
 
 ## Editing zsh
@@ -67,11 +67,11 @@ edit `.zshrc`
 
 ## nodejs and configuring nvm with zsh
 ~~~
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash //see website first
 ~~~
 
 now to add nvm to my `.zshrc` file \
-add this to the top of the file
+add this to the top of the file (only if `nvm install [latest version]` doesnt work)
 ~~~
 # Initialize NVM
 export NVM_DIR="$HOME/.nvm" 
