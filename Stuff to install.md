@@ -147,8 +147,9 @@ systemctl --user status wireplumber  //should be active and running
 
 
 ## Neovim setup
+to do this only after git through ssh has been configured
 ~~~
-git clone https://github.com/Abbas0024/my-neovim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone git@github.com:Abbas0024/my-neovim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ~~~
 
 and then initialise neovim for the first time
