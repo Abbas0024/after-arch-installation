@@ -1,7 +1,7 @@
 ## from pacman
 ~~~
 sudo pacman -S kate steam gimp kdenlive qbittorrent virtualbox obs-studio pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family
-discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty
+discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins
 ~~~
 
 ## yay installation
