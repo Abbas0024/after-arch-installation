@@ -21,13 +21,6 @@ yay -S postman-bin
 yay -S brave-bin
 ~~~
 
-## my folders to have
-- ISOs
-- Loi Liang Yang
-- Wallpapers
-- Dank net
-- Clean coding and refactoring
-
 ## Editing pacman
 edit `/etc/pacman.conf`
 - uncomment `#Color`
