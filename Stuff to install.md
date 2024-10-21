@@ -1,7 +1,7 @@
 ## from pacman
 ~~~
 sudo pacman -S kate steam gimp kdenlive qbittorrent virtualbox obs-studio pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family
-discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty
+discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty fzf thefuck zoxide
 ~~~
 
 ## yay installation
@@ -56,13 +56,23 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Editing zsh
 edit `.zshrc`
-- theme = darkblood
-- add alias towards the end of the file
-  ~~~
-  #My aliases
-  alias ls='exa -al --color=always --group-directories-first'
-  ~~~
-- add `neofetch`(RIP) towards the end of the file
+theme = darkblood \
+
+add the following to the end of your zsh to get zoxide,eza,thefuck,fzf
+~~~
+#Setting up eza(better ls)
+alias ls="eza -al --color=always --group-directories-first --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
+#Set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"
+
+#Setting up the fuck
+eval "$(thefuck --alias)"
+
+#Setting up zoxide(better cd)
+eval "$(zoxide init zsh)"
+alias cd="z"
+~~~
 
 ## nodejs and configuring nvm with zsh
 ~~~
