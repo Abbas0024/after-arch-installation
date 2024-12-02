@@ -14,6 +14,10 @@ tweaking performance by enabling Display Cores
 amdgpu.dc=1
 ~~~
 
+to enable apparmor
+~~~
+apparmor=1 lsm=landlock,yama,integrity,apparmor,bpf
+~~~
 then update the grub configuration
 ~~~
 sudo grub-mkconfig -o /boot/grub/grub.cfg
