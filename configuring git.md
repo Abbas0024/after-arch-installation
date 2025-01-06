@@ -33,6 +33,11 @@ generate another ssh keypair(change name to `id_rsa_second` when prompted)
 ssh-keygen -t rsa -b 4096 -C "your_email_for_second_account@example.com"
 ~~~
 
+starting the ssh agent
+~~~
+eval "$(ssh-agent -s)"
+~~~
+
 adding private key to ssh agent
 ~~~
 ssh-add ~/.ssh/id_rsa_second
