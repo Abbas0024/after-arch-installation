@@ -24,6 +24,13 @@ yay -S unityhub
 yay -S aseprite
 ~~~
 
+** from flatpak(discover)
+~~~
+Photos
+Lutris
+ProtonUp-Qt
+~~~
+
 ## Editing pacman
 edit `/etc/pacman.conf`
 - uncomment `#Color`
