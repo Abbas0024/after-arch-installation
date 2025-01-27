@@ -1,6 +1,6 @@
 ## from pacman
 ~~~
-sudo pacman -S kate steam gimp kdenlive qbittorrent virtualbox obs-studio pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide dotnet-runtime dotnet-sdk wine proton-vpn-gtk-app
+sudo pacman -S kate steam gimp kdenlive qbittorrent virtualbox obs-studio pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide dotnet-runtime dotnet-sdk wine proton-vpn-gtk-app reflector
 ~~~
 
 ## yay installation
@@ -171,4 +171,9 @@ nvim
 
 and then it will lazy-load and install all the plugins
 
+
+## Mirror Ranking(in case of pacman errors)
+~~~
+sudo reflector --country 'India' --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+~~~
 
