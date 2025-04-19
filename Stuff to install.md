@@ -18,16 +18,11 @@ yay -S spotify
 yay -S visual-studio-code-bin
 yay -S postman-bin
 yay -S brave-bin
-yay -S unityhub
-
-yay -S aseprite
 ~~~
 
 ## from flatpak(discover)
 ~~~
 Photos
-Lutris
-ProtonUp-Qt
 ~~~
 
 ## Editing pacman
