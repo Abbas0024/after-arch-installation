@@ -1,6 +1,6 @@
 ## from pacman
 ~~~
-sudo pacman -S kate steam qbittorent pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide wine proton-vpn-gtk-app reflector spotify-launcher
+sudo pacman -S kate steam qbittorent pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide wine proton-vpn-gtk-app reflector spotify-launcher dotnet-runtime dotnet-sdk
 ~~~
 
 ## yay installation
@@ -16,6 +16,7 @@ makepkg -si
 yay -S visual-studio-code-bin
 yay -S postman-bin
 yay -S brave-bin
+yay -S unityhub
 ~~~
 
 ## from flatpak(discover)
