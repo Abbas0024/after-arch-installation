@@ -13,10 +13,7 @@ makepkg -si
 
 ## from AUR
 ~~~
-yay -S visual-studio-code-bin
-yay -S postman-bin
-yay -S brave-bin
-yay -S unityhub
+yay -S visual-studio-code-bin postman-bin brave-bin unityhub
 ~~~
 
 ## from flatpak(discover)
