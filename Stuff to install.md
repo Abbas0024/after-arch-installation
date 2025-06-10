@@ -1,6 +1,6 @@
 ## from pacman
 ~~~
-sudo pacman -S kate steam qbittorent pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family discord obsidian neofetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide wine proton-vpn-gtk-app reflector spotify-launcher dotnet-runtime dotnet-sdk
+sudo pacman -S kate steam qbittorrent pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family discord obsidian fastfetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide wine proton-vpn-gtk-app reflector spotify-launcher dotnet-runtime dotnet-sdk lutris kwin rofi-wayland qt6-wayland xorg-xwayland
 ~~~
 
 ## yay installation
@@ -22,7 +22,6 @@ yay -S unityhub
 ## from flatpak(discover)
 ~~~
 Photos
-Lutris
 ProtonUp-Qt
 Heroic
 Zoom
@@ -72,6 +71,8 @@ eval "$(thefuck --alias)"
 #Setting up zoxide(better cd)
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+fastfetch
 ~~~
 
 ## nodejs and configuring nvm with zsh
