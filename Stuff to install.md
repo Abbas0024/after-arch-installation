@@ -52,7 +52,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Editing zsh
 edit `.zshrc`
-theme = darkblood \
+theme = gentoo \
 
 add the following to the end of your zsh to get zoxide,eza,thefuck,fzf
 ~~~
