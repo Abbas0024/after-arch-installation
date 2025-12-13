@@ -1,6 +1,6 @@
 ## from pacman
 ~~~
-sudo pacman -S kate steam qbittorrent pavucontrol vlc amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family discord obsidian fastfetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide wine proton-vpn-gtk-app reflector spotify-launcher dotnet-runtime dotnet-sdk lutris kwin rofi-wayland qt6-wayland xorg-xwayland
+sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family discord fastfetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide reflector spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre libreoffice-still gparted torbrowser-launcher proton-vpn-gtk-app
 ~~~
 
 ## yay installation
@@ -13,7 +13,7 @@ makepkg -si
 
 ## from AUR
 ~~~
-yay -S visual-studio-code-bin postman-bin brave-bin unityhub
+yay -S visual-studio-code-bin brave-bin librewolf-bin
 ~~~
 
 ## from flatpak(discover)
@@ -22,6 +22,9 @@ Photos
 ProtonUp-Qt
 Heroic
 Zoom
+Kdenlive
+Obsidian
+OBS Studio
 ~~~
 
 ## Editing pacman
@@ -70,36 +73,6 @@ eval "$(zoxide init zsh)"
 alias cd="z"
 
 fastfetch
-~~~
-
-## nodejs and configuring nvm with zsh
-~~~
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash //see website first
-~~~
-
-now to add nvm to my `.zshrc` file \
-add this to the top of the file (only if `nvm install [latest version]` doesnt work)
-~~~
-# Initialize NVM
-export NVM_DIR="$HOME/.nvm" 
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm 
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-~~~
-
-reload the terminal then
-~~~
-source ~/.zshrc
-~~~
-
-then install nodejs
-~~~
-nvm install [latest version number]
-~~~
-
-verify installation
-~~~
-node -v
-npm -v
 ~~~
 
 ## Setting up the firewall and cache-cleaner
