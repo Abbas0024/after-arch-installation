@@ -1,6 +1,6 @@
 ## from pacman
 ~~~
-sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode rofi ufw ttf-meslo-nerd ttf-ubuntu-font-family fastfetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide reflector spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre libreoffice-still gparted torbrowser-launcher proton-vpn-gtk-app wine monero-gui
+sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode ufw ttf-meslo-nerd ttf-ubuntu-font-family fastfetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide reflector spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre libreoffice-still gparted torbrowser-launcher proton-vpn-gtk-app wine monero-gui fuse2
 ~~~
 
 ## yay installation
@@ -13,7 +13,7 @@ makepkg -si
 
 ## from AUR
 ~~~
-yay -S visual-studio-code-bin brave-bin librewolf-bin
+yay -S brave-bin librewolf-bin
 ~~~
 
 ## from flatpak(discover)
