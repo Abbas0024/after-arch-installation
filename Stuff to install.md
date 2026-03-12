@@ -1,6 +1,6 @@
 ## from pacman
 ~~~
-sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode ufw ttf-meslo-nerd ttf-ubuntu-font-family fastfetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide reflector spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre libreoffice-still gparted torbrowser-launcher proton-vpn-gtk-app wine monero-gui fuse2
+sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode ufw ttf-meslo-nerd ttf-ubuntu-font-family fastfetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide reflector spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre libreoffice-still gparted torbrowser-launcher proton-vpn-gtk-app wine monero-gui 
 ~~~
 
 ## yay installation
@@ -27,6 +27,12 @@ Obsidian
 OBS Studio
 Vlc
 Discord
+~~~
+
+## from internet(appimages and appliations)
+*all appimages requier fuse2
+~~~
+
 ~~~
 
 ## Editing pacman
