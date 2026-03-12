@@ -35,10 +35,7 @@ Discord
 LM Studio 
 ShadPS4 
 PCSX2
-Ship of Harkinian
-2ship2harkinian (github)
-Cemu Emulator
-Eden Emulator
+rpcs3
 ~~~
 
 ## Editing pacman
