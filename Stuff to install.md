@@ -30,14 +30,15 @@ Discord
 ~~~
 
 ## from internet(appimages and appliations)
-*all appimages requier fuse2 from pacman*
+*all appimages require fuse2 from pacman*
 ~~~
 LM Studio 
 ShadPS4 
-Dolphin Emulator 
 PCSX2
 Ship of Harkinian
 2ship2harkinian (github)
+Cemu Emulator
+Eden Emulator
 ~~~
 
 ## Editing pacman
