@@ -1,6 +1,6 @@
 ## from pacman
 ~~~
-sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode ufw ttf-meslo-nerd ttf-ubuntu-font-family fastfetch eza spectacle neovim ripgrep xclip kitty dolphin-plugins fzf thefuck zoxide reflector spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre torbrowser-launcher proton-vpn-gtk-app wine exfat-utils
+sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode ufw ttf-meslo-nerd fastfetch eza spectacle neovim ripgrep kitty dolphin-plugins fzf zoxide spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre torbrowser-launcher proton-vpn-gtk-app wine exfat-utils
 ~~~
 
 ## yay installation
@@ -75,9 +75,6 @@ alias ls="eza -al --color=always --group-directories-first --long --git --no-fil
 
 #Set up fzf key bindings and fuzzy completion
 eval "$(fzf --zsh)"
-
-#Setting up the fuck
-eval "$(thefuck --alias)"
 
 #Setting up zoxide(better cd)
 eval "$(zoxide init zsh)"
@@ -183,6 +180,7 @@ and then it will lazy-load and install all the plugins
 
 ## Mirror Ranking(in case of pacman errors)
 ~~~
+sudo pacman -S reflector
 sudo reflector --country 'India' --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ~~~
 
