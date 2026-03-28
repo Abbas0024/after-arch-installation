@@ -1,6 +1,6 @@
 ## from pacman
 ~~~
-sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode ufw ttf-meslo-nerd fastfetch eza spectacle neovim ripgrep kitty dolphin-plugins fzf zoxide spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre torbrowser-launcher proton-vpn-gtk-app wine exfat-utils xdg-desktop-portal-gtk starhsip
+sudo pacman -S kate steam qbittorrent pavucontrol amd-ucode ufw ttf-meslo-nerd fastfetch eza spectacle neovim ripgrep kitty dolphin-plugins fzf zoxide spotify-launcher kwin rofi-wayland qt6-wayland xorg-xwayland calibre torbrowser-launcher proton-vpn-gtk-app wine exfat-utils xdg-desktop-portal-gtk starship
 ~~~
 
 ## yay installation
