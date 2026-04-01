@@ -13,7 +13,7 @@ makepkg -si
 
 ## from AUR
 ~~~
-yay -S brave-bin librewolf-bin
+yay -S brave-bin librewolf-bin cryptomator
 ~~~
 
 ## from flatpak(discover)
